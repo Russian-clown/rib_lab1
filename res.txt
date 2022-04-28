@@ -1,0 +1,76 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+danil        979       1  0 20:49 ?        00:00:00 /lib/systemd/systemd --user
+danil        980     979  0 20:49 ?        00:00:00 (sd-pam)
+danil        985     979  0 20:49 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+danil        987     979  0 20:49 ?        00:00:00 /usr/libexec/tracker-miner-fs
+danil        990       1  0 20:49 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+danil        994     974  0 20:49 tty2     00:00:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+danil        996     994  1 20:49 tty2     00:00:02 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+danil       1002     979  0 20:49 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+danil       1005     979  0 20:49 ?        00:00:00 /usr/libexec/gvfsd
+danil       1010     979  0 20:49 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+danil       1022     979  0 20:49 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+danil       1027     979  0 20:49 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+danil       1031     979  0 20:49 ?        00:00:00 /usr/libexec/goa-daemon
+danil       1050     979  0 20:49 ?        00:00:00 /usr/libexec/goa-identity-service
+danil       1052     979  0 20:49 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+danil       1059     979  0 20:49 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+danil       1067     979  0 20:49 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+danil       1091     994  0 20:49 tty2     00:00:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+danil       1161       1  0 20:49 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+danil       1162    1161  0 20:49 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+danil       1171       1  0 20:49 ?        00:00:00 /usr/bin/VBoxClient --seamless
+danil       1173    1171  0 20:49 ?        00:00:00 /usr/bin/VBoxClient --seamless
+danil       1180       1  0 20:49 ?        00:00:00 /usr/bin/VBoxClient --draganddrop
+danil       1182    1180  0 20:49 ?        00:00:00 /usr/bin/VBoxClient --draganddrop
+danil       1185       1  0 20:49 ?        00:00:00 /usr/bin/VBoxClient --vmsvga
+danil       1186    1185  0 20:49 ?        00:00:00 /usr/bin/VBoxClient --vmsvga
+danil       1197    1091  0 20:49 ?        00:00:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+danil       1216     979  0 20:49 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+danil       1221    1216  0 20:49 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+danil       1244     979  0 20:49 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+danil       1251     979  0 20:49 ?        00:00:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+danil       1264     979  4 20:49 ?        00:00:09 /usr/bin/gnome-shell
+danil       1308    1264  0 20:49 ?        00:00:00 ibus-daemon --panel disable --xim
+danil       1312    1308  0 20:49 ?        00:00:00 /usr/libexec/ibus-dconf
+danil       1313    1308  0 20:49 ?        00:00:01 /usr/libexec/ibus-extension-gtk3
+danil       1317     979  0 20:49 ?        00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+danil       1323     979  0 20:49 ?        00:00:00 /usr/libexec/ibus-portal
+danil       1331     979  0 20:49 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+danil       1335     979  0 20:49 ?        00:00:00 /usr/libexec/xdg-permission-store
+danil       1340     979  0 20:49 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+danil       1348     979  0 20:49 ?        00:00:00 /usr/libexec/evolution-source-registry
+danil       1354     979  0 20:49 ?        00:00:00 /usr/libexec/dconf-service
+danil       1368     979  0 20:49 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+danil       1372     979  0 20:49 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+danil       1383     979  0 20:49 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+danil       1384     979  0 20:49 ?        00:00:00 /usr/libexec/gsd-color
+danil       1385     979  0 20:49 ?        00:00:00 /usr/libexec/gsd-datetime
+danil       1386     979  0 20:49 ?        00:00:00 /usr/libexec/gsd-housekeeping
+danil       1387     979  0 20:49 ?        00:00:00 /usr/libexec/gsd-keyboard
+danil       1388     979  0 20:49 ?        00:00:00 /usr/libexec/gsd-media-keys
+danil       1389     979  0 20:49 ?        00:00:00 /usr/libexec/gsd-power
+danil       1391     979  0 20:49 ?        00:00:00 /usr/libexec/gsd-print-notifications
+danil       1393     979  0 20:49 ?        00:00:00 /usr/libexec/gsd-rfkill
+danil       1394     979  0 20:49 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+danil       1396     979  0 20:49 ?        00:00:00 /usr/libexec/gsd-sharing
+danil       1399     979  0 20:49 ?        00:00:00 /usr/libexec/gsd-smartcard
+danil       1400     979  0 20:49 ?        00:00:00 /usr/libexec/gsd-sound
+danil       1401     979  0 20:49 ?        00:00:00 /usr/libexec/gsd-usb-protection
+danil       1402     979  0 20:49 ?        00:00:00 /usr/libexec/gsd-wacom
+danil       1403     979  0 20:49 ?        00:00:00 /usr/libexec/gsd-wwan
+danil       1404     979  0 20:49 ?        00:00:00 /usr/libexec/gsd-xsettings
+danil       1405    1308  0 20:49 ?        00:00:00 /usr/libexec/ibus-engine-simple
+danil       1407    1251  0 20:49 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+danil       1444    1251  0 20:49 ?        00:00:00 /usr/libexec/gsd-disk-utility-notify
+danil       1496     979  0 20:49 ?        00:00:00 /usr/libexec/gsd-printer
+danil       1541    1005  0 20:49 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.4 /org/gtk/gvfs/exec_spaw/0
+danil       1575     979  0 20:49 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+danil       1628     979  0 20:50 ?        00:00:00 /usr/libexec/gvfsd-metadata
+danil       1633    1251  0 20:50 ?        00:00:00 update-notifier
+danil       1718     979  1 20:51 ?        00:00:02 /usr/bin/nautilus --gapplication-service
+danil       1743    1251  0 20:51 ?        00:00:00 /usr/libexec/deja-dup/deja-dup-monitor
+danil       1753     979  1 20:52 ?        00:00:00 /usr/libexec/gnome-terminal-server
+danil       1760    1753  0 20:52 pts/0    00:00:00 bash
+danil       1772    1760  0 20:53 pts/0    00:00:00 bash labrib1_5.sh res.txt
+danil       1774    1772  0 20:53 pts/0    00:00:00 ps -f -U danil -u danil
